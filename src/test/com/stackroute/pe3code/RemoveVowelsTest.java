@@ -7,7 +7,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class RemoveVowelsTest {
-    public class RemovevowelTest {
         RemoveVowels obj;
 
         @Before
@@ -35,12 +34,12 @@ public class RemoveVowelsTest {
         }
 
         @Test
-        public void givenAStringShouldRemovevowelsExceptFirst() {
+        public void givenAStringShouldRemoveVowelsExceptFirst(){
             //Act
 
-            String[] str = {"India"};
+            String[] str = {"England"};
             //Assert
-            assertEquals("", "Ind", obj.removeVowelFromStrings(str));
+            assertEquals("", "Englnd", obj.removeVowelFromStringsExceptFirst(str));
 
         }
         @Test
@@ -53,5 +52,3 @@ public class RemoveVowelsTest {
 
         }
     }
-
-}

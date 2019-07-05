@@ -33,5 +33,13 @@ public class ConsecutiveNumbersTest {
             assertEquals(expected,actual);
         }
 
+    @Test
+    public void checkConsecutiveNeg() {
+        boolean expected=false;
+        boolean actual=number.checkConsecutive("54,-53,52,51,50,49,48");
+        assertEquals(expected,actual);
     }
+
+
+}
 

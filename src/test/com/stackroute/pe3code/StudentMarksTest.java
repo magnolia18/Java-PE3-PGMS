@@ -36,6 +36,7 @@ public class StudentMarksTest {
 
         assertEquals(expected, actual);
     }
+    @Test
     public void checkGradesPass() {
 //        arrange
         studentMarks = new StudentMarks(4, new int[]{-20, 60, 40,50, 150});
